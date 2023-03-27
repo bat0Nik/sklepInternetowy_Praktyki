@@ -1,0 +1,63 @@
+.cart .cart-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cart .cart-items .del_all{
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+.cart .cart-items .del_all button{
+    background: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    transition: .1s linear;
+}
+.cart .cart-items .del_all button:hover{
+    color: white;
+    background: red;
+}
+.cart .paynment-panel{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid rgba(216, 216, 216, .5);
+    border-radius: 10px;
+    min-width: 600px;
+    position: sticky;
+    top: 50px;
+}
+.cart .paynment-panel .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart .paynment-panel button{
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 2px solid #00a000;
+    border-radius: 10px;
+    color: #00a000;
+    font-weight: 700;
+    background:white;
+    width: 100%;
+    transition: .1s linear;
+}
+.cart .paynment-panel button:hover{
+    margin: 10px 0;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    background:#00a000;
+    width: 100%;
+}
+

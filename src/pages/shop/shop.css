@@ -1,0 +1,23 @@
+.shop h2{
+  margin: 0;
+}
+.shop .container {
+  display: flex;
+  justify-content: space-around;
+}
+.shop .container .categories {
+  width: 400px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.shop .container .search_results{
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.shop .container .search_results .search_results_text{
+  margin-bottom: 30px;
+}

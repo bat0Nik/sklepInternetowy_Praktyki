@@ -1,0 +1,80 @@
+p,
+h4 {
+  margin: 0;
+}
+
+h4 .product_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.productCard .productInfo p {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 25px;
+  letter-spacing: -.5px;
+}
+.cards {
+    margin: auto;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .productCard {
+    width: 220px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.3);
+    border-radius: .5rem;
+    transition: .2s linear;
+  }
+  .productCard:hover{
+      box-shadow: 0 0 15px rgba(212, 212, 212, 0.5);
+  }
+  .productImage img {
+    width: 220px;
+  }
+  .productInfo {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product_price_add_btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .item_saled{
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f00;
+    transform: rotate(-30deg) translateX(-15px);
+    overflow: hidden;
+    color:white;
+    font-weight: 700;
+  }
+  .addToCartBtn {
+      border: 0;
+      border-radius: .5rem;
+      padding: 10px 0;
+      background: #e4e4e4;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: .1rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

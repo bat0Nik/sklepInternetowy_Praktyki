@@ -1,0 +1,23 @@
+.search-div{
+    display: flex;
+    width: 500px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.search-div input{
+    height: 45px;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+    width: 100%;
+}
+.search-div button{
+    height: 45px;
+    width: 80px;
+    border: 0;
+    color: white;
+    background:rgb(216, 216, 216);
+    font-weight: 700;
+    cursor: pointer;
+}
